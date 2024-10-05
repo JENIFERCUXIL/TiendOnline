@@ -1,0 +1,22 @@
+  /* Estilos adicionales para el carrusel */
+  .carousel-item img {
+    max-height: 500px;
+    object-fit: cover;
+  }
+
+  .product-card {
+    margin-top: 20px;
+  }
+  
+  .product-card img {
+    max-height: 300px;
+    object-fit: cover;
+  }
+
+  footer {
+    margin-top: 50px;
+  }
+  #productCarousel {
+    max-width: 800px; /* Ajusta el ancho máximo del carrusel */
+    margin: auto; /* Centra el carrusel en la página */
+}
