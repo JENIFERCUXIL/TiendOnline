@@ -5,121 +5,309 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tienda de Ropa</title>
   <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <!-- Barra de navegación -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">TENDENCIA DE ROPA</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <a class="navbar-brand" href="#">ROPA MODERNA</a>
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link" href="#">Inicio</a>
+            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Tienda</a>
+            <a class="nav-link" href="#">Tendencia</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contacto</a>
+            <a class="nav-link" href="#">Acerca</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <!-- Carrusel -->
-  <div id="carouselExampleCaptions" class="carousel slide mx-auto" style="max-width: 18rem;">
-    <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    </div>
-    <div class="carousel-inner">
-        <div class="carousel-item active" style="height: 400px;">
-            <img src="https://i.pinimg.com/736x/10/4b/af/104baf08d24053179731ae67d24790ce.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-                <h5>Producto 1</h5>
-                <p>Traje estudiantil 1.</p>
-            </div>
-        </div>
-        <div class="carousel-item" style="height: 400px;">
-            <img src="https://i.pinimg.com/736x/17/d2/c8/17d2c89e3adc908db4fee76271b0cbdb.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-                <h5>Producto 2</h5>
-                <p>Traje estudiantil 2.</p>
-            </div>
-        </div>
-        <div class="carousel-item" style="height: 400px;">
-            <img src="https://i.pinimg.com/564x/19/13/17/1913173d1734e00a1ff6181cdf48130c.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-                <h5>Producto 3</h5>
-                <p>Traje estudiantil 3.</p>
-            </div>
-        </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Anterior</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Siguiente</span>
-    </button>
+  <h1 style="color: rgb(243, 235, 235); text-align: center;">BIENVENID@ A MI TIENDA ONLINE</h1>
+  <div style="text-align: center; margin-top: 20px;">
+    <p style="color: rgb(56, 38, 38); font-size: 1.2em;">Bienvenido a nuestra tienda online, donde encontrarás la mejor selección de ropa moderna y tendencias actuales. Explora nuestra colección y descubre las últimas novedades en moda. ¡Esperamos que disfrutes tu experiencia de compra con nosotros!</p>
 </div>
 
+  <!-- Carrusel -->
+  <div id="carouselExampleCaptions" class="carousel slide mx-auto" style="max-width: 45rem;">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6" aria-label="Slide 7"></button>
+<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="7" aria-label="Slide 8"></button>
+<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="8" aria-label="Slide 9"></button>
+<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="9" aria-label="Slide 10"></button>
+<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="10" aria-label="Slide 11"></button>
+<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="11" aria-label="Slide 12"></button>
 
- <!-- Sección de productos -->
-<div class="container mt-5">
-    <div class="row">
-      <!-- Tarjeta 1 -->
-      <div class="col-md-4"> <!-- Cambia 'product-card' a 'col-md-4' -->
-        <div class="card mb-4" style="width: 100%;"> <!-- Cambia el ancho a 100% -->
-          <img src="https://i.pinimg.com/736x/10/4b/af/104baf08d24053179731ae67d24790ce.jpg"   style="width: 100%; height: 400px; object-fit: cover;" class="card-img-top" alt="Producto 1">
-          <div class="card-body">
-            <h5 class="card-title">Producto 1</h5>
-            <p class="card-text">Descripción breve del producto 1.</p>
-            <a href="#" class="btn btn-primary">Ver producto</a>
-          </div>
-        </div>
-      </div>
-  
-      <!-- Tarjeta 2 -->
-      <div class="col-md-4"> <!-- Cambia 'product-card' a 'col-md-4' -->
-        <div class="card mb-4" style="width: 100%;"> <!-- Cambia el ancho a 100% -->
-          <img src="https://i.pinimg.com/736x/17/d2/c8/17d2c89e3adc908db4fee76271b0cbdb.jpg"  style="width: 100%; height: 400px; object-fit: cover;" class="card-img-top" alt="Producto 2">
-          <div class="card-body">
-            <h5 class="card-title">Producto 2</h5>
-            <p class="card-text">Descripción breve del producto 2.</p>
-            <a href="#" class="btn btn-primary">Ver producto</a>
-          </div>
-        </div>
-      </div>
-  
-      <!-- Tarjeta 3 -->
-      <div class="col-md-4"> <!-- Cambia 'product-card' a 'col-md-4' -->
-        <div class="card mb-4" style="width: 100%;"> <!-- Cambia el ancho a 100% -->
-          <img src="https://i.pinimg.com/564x/19/13/17/1913173d1734e00a1ff6181cdf48130c.jpg"  style="width: 100%; height: 400px; object-fit: cover;" class="card-img-top" alt="Producto 3">
-          <div class="card-body">
-            <h5 class="card-title">Producto 3</h5>
-            <p class="card-text">Descripción breve del producto 3.</p>
-            <a href="#" class="btn btn-primary">Ver producto</a>
-          </div>
-        </div>
-      </div>
     </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" style="height: 400px;">
+          <img src="https://i.pinimg.com/736x/10/4b/af/104baf08d24053179731ae67d24790ce.jpg" class="d-block w-100" alt="Producto 1">
+          <div class="carousel-caption d-none d-md-block">
+              <h5>Producto 1</h5>
+              <p>Traje estudiantil 1.</p>
+          </div>
+      </div>
+      <div class="carousel-item" style="height: 400px;">
+          <img src="https://i.pinimg.com/736x/17/d2/c8/17d2c89e3adc908db4fee76271b0cbdb.jpg" class="d-block w-100" alt="Producto 2">
+          <div class="carousel-caption d-none d-md-block">
+              <h5>Producto 2</h5>
+              <p>Traje estudiantil 2.</p>
+          </div>
+      </div>
+      <div class="carousel-item" style="height: 400px;">
+          <img src="https://i.pinimg.com/564x/19/13/17/1913173d1734e00a1ff6181cdf48130c.jpg" class="d-block w-100" alt="Producto 3">
+          <div class="carousel-caption d-none d-md-block">
+              <h5>Producto 3</h5>
+              <p>Traje estudiantil 3.</p>
+          </div>
+      </div>
+      <div class="carousel-item" style="height: 400px;">
+          <img src="https://i.pinimg.com/736x/c3/3b/d1/c33bd16408c98fe0e27121d4932ffe08.jpg" class="d-block w-100" alt="Producto 4">
+          <div class="carousel-caption d-none d-md-block">
+              <h5>Producto 4</h5>
+              <p>Traje estudiantil 4.</p>
+          </div>
+      </div>
+      <div class="carousel-item" style="height: 400px;">
+          <img src="https://i.pinimg.com/564x/96/ba/eb/96baeb24f4d0ecd16d5e56f99cc0abee.jpg" class="d-block w-100" alt="Producto 5">
+          <div class="carousel-caption d-none d-md-block">
+              <h5>Producto 5</h5>
+              <p>Traje estudiantil 5.</p>
+          </div>
+      </div>
+      <div class="carousel-item" style="height: 400px;">
+          <img src="https://i.pinimg.com/564x/cd/97/d3/cd97d30dfd32c4aedd8db737415c416c.jpg" class="d-block w-100" alt="Producto 6">
+          <div class="carousel-caption d-none d-md-block">
+              <h5>Producto 6</h5>
+              <p>Traje estudiantil 6.</p>
+          </div>
+      </div>
+      <div class="carousel-item" style="height: 400px;">
+          <img src="https://i.pinimg.com/564x/d8/55/8e/d8558e00c09326d2b4fcbd85d7a8b695.jpg" class="d-block w-100" alt="Producto 7">
+          <div class="carousel-caption d-none d-md-block">
+              <h5>Producto 7</h5>
+              <p>Traje estudiantil 7.</p>
+          </div>
+      </div>
+      <div class="carousel-item" style="height: 400px;">
+          <img src="https://i.pinimg.com/564x/71/42/bf/7142bf76f84e64b70934154ecaf28d71.jpg" class="d-block w-100" alt="Producto 8">
+          <div class="carousel-caption d-none d-md-block">
+              <h5>Producto 8</h5>
+              <p>Traje estudiantil 8.</p>
+          </div>
+      </div>
+      <div class="carousel-item" style="height: 400px;">
+          <img src="https://i.pinimg.com/736x/bf/71/e8/bf71e84d32010a6b754422aefd1e2eeb.jpg" class="d-block w-100" alt="Producto 9">
+          <div class="carousel-caption d-none d-md-block">
+              <h5>Producto 9</h5>
+              <p>Traje estudiantil 9.</p>
+          </div>
+      </div>
+      <div class="carousel-item" style="height: 400px;">
+          <img src="https://i.pinimg.com/564x/38/09/fb/3809fb81113a7233468341eb8c90d7a9.jpg" class="d-block w-100" alt="Producto 10">
+          <div class="carousel-caption d-none d-md-block">
+              <h5>Producto 10</h5>
+              <p>Traje estudiantil 10.</p>
+          </div>
+      </div>
+      <div class="carousel-item" style="height: 400px;">
+          <img src="https://i.pinimg.com/736x/38/5f/ea/385feae0fba33d4aa70bf6601c91cc6d.jpg" class="d-block w-100" alt="Producto 11">
+          <div class="carousel-caption d-none d-md-block">
+              <h5>Producto 11</h5>
+              <p>Traje estudiantil 11.</p>
+          </div>
+      </div>
+      <div class="carousel-item" style="height: 400px;">
+          <img src="https://i.pinimg.com/564x/0f/e4/99/0fe499a2cadf60da1d0230663d31b89e.jpg" class="d-block w-100" alt="Producto 12">
+          <div class="carousel-caption d-none d-md-block">
+              <h5>Producto 12</h5>
+              <p>Traje estudiantil 12.</p>
+          </div>
+      </div>
   </div>
   
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Anterior</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Siguiente</span>
+    </button>
+  </div>
 
+  <!-- Sección de productos -->
+  <div class="container mt-5">
+    <div class="row">
+        <!-- Tarjeta 1 -->
+        <div class="col-md-3">
+            <div class="card mb-4">
+                <img src="https://i.pinimg.com/736x/10/4b/af/104baf08d24053179731ae67d24790ce.jpg" style="width: 100%; height: 400px; object-fit: cover;" class="card-img-top" alt="Producto 1">
+                <div class="card-body">
+                    <h5 class="card-title">Producto 1</h5>
+                    <p class="card-text">Descripción breve del producto 1.</p>
+                    <a href="#" class="btn btn-primary">Ver producto</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tarjeta 2 -->
+        <div class="col-md-3">
+            <div class="card mb-4">
+                <img src="https://i.pinimg.com/736x/17/d2/c8/17d2c89e3adc908db4fee76271b0cbdb.jpg" style="width: 100%; height: 400px; object-fit: cover;" class="card-img-top" alt="Producto 2">
+                <div class="card-body">
+                    <h5 class="card-title">Producto 2</h5>
+                    <p class="card-text">Descripción breve del producto 2.</p>
+                    <a href="#" class="btn btn-primary">Ver producto</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tarjeta 3 -->
+        <div class="col-md-3">
+            <div class="card mb-4">
+                <img src="https://i.pinimg.com/564x/19/13/17/1913173d1734e00a1ff6181cdf48130c.jpg" style="width: 100%; height: 400px; object-fit: cover;" class="card-img-top" alt="Producto 3">
+                <div class="card-body">
+                    <h5 class="card-title">Producto 3</h5>
+                    <p class="card-text">Descripción breve del producto 3.</p>
+                    <a href="#" class="btn btn-primary">Ver producto</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tarjeta 4 -->
+        <div class="col-md-3">
+            <div class="card mb-4">
+                <img src="https://i.pinimg.com/736x/c3/3b/d1/c33bd16408c98fe0e27121d4932ffe08.jpg" style="width: 100%; height: 400px; object-fit: cover;" class="card-img-top" alt="Producto 4">
+                <div class="card-body">
+                    <h5 class="card-title">Producto 4</h5>
+                    <p class="card-text">Descripción breve del producto 4.</p>
+                    <a href="#" class="btn btn-primary">Ver producto</a>
+                </div>
+            </div>
+        </div>
+        <!-- Tarjeta 5 -->
+        <div class="col-md-3">
+          <div class="card mb-4">
+              <img src="https://i.pinimg.com/564x/96/ba/eb/96baeb24f4d0ecd16d5e56f99cc0abee.jpg" style="width: 100%; height: 400px; object-fit: cover;" class="card-img-top" alt="Producto 5">
+              <div class="card-body">
+                  <h5 class="card-title">Producto 5</h5>
+                  <p class="card-text">Descripción breve del producto 5.</p>
+                  <a href="#" class="btn btn-primary">Ver producto</a>
+              </div>
+          </div>
+      </div>
+
+      <!-- Tarjeta 6 -->
+      <div class="col-md-3">
+          <div class="card mb-4">
+              <img src="https://i.pinimg.com/564x/cd/97/d3/cd97d30dfd32c4aedd8db737415c416c.jpg" style="width: 100%; height: 400px; object-fit: cover;" class="card-img-top" alt="Producto 6">
+              <div class="card-body">
+                  <h5 class="card-title">Producto 6</h5>
+                  <p class="card-text">Descripción breve del producto 6.</p>
+                  <a href="#" class="btn btn-primary">Ver producto</a>
+              </div>
+          </div>
+      </div>
+
+      <!-- Tarjeta 7 -->
+      <div class="col-md-3">
+          <div class="card mb-4">
+              <img src="https://i.pinimg.com/564x/d8/55/8e/d8558e00c09326d2b4fcbd85d7a8b695.jpg" style="width: 100%; height: 400px; object-fit: cover;" class="card-img-top" alt="Producto 7">
+              <div class="card-body">
+                  <h5 class="card-title">Producto 7</h5>
+                  <p class="card-text">Descripción breve del producto 7.</p>
+                  <a href="#" class="btn btn-primary">Ver producto</a>
+              </div>
+          </div>
+      </div>
+
+      <!-- Tarjeta 8 -->
+      <div class="col-md-3">
+          <div class="card mb-4">
+              <img src="https://i.pinimg.com/564x/71/42/bf/7142bf76f84e64b70934154ecaf28d71.jpg" style="width: 100%; height: 400px; object-fit: cover;" class="card-img-top" alt="Producto 8">
+              <div class="card-body">
+                  <h5 class="card-title">Producto 8</h5>
+                  <p class="card-text">Descripción breve del producto 8.</p>
+                  <a href="#" class="btn btn-primary">Ver producto</a>
+              </div>
+          </div>
+      </div>
+
+      <!-- Tarjeta 9 -->
+      <div class="col-md-3">
+          <div class="card mb-4">
+              <img src="https://i.pinimg.com/736x/bf/71/e8/bf71e84d32010a6b754422aefd1e2eeb.jpg" style="width: 100%; height: 400px; object-fit: cover;" class="card-img-top" alt="Producto 9">
+              <div class="card-body">
+                  <h5 class="card-title">Producto 9</h5>
+                  <p class="card-text">Descripción breve del producto 9.</p>
+                  <a href="#" class="btn btn-primary">Ver producto</a>
+              </div>
+          </div>
+      </div>
+
+      <!-- Tarjeta 10 -->
+      <div class="col-md-3">
+          <div class="card mb-4">
+              <img src="https://i.pinimg.com/564x/38/09/fb/3809fb81113a7233468341eb8c90d7a9.jpg" style="width: 100%; height: 400px; object-fit: cover;" class="card-img-top" alt="Producto 10">
+              <div class="card-body">
+                  <h5 class="card-title">Producto 10</h5>
+                  <p class="card-text">Descripción breve del producto 10.</p>
+                  <a href="#" class="btn btn-primary">Ver producto</a>
+              </div>
+          </div>
+      </div>
+
+      <!-- Tarjeta 11 -->
+      <div class="col-md-3">
+          <div class="card mb-4">
+              <img src="https://i.pinimg.com/736x/38/5f/ea/385feae0fba33d4aa70bf6601c91cc6d.jpg" style="width: 100%; height: 400px; object-fit: cover;" class="card-img-top" alt="Producto 11">
+              <div class="card-body">
+                  <h5 class="card-title">Producto 11</h5>
+                  <p class="card-text">Descripción breve del producto 11.</p>
+                  <a href="#" class="btn btn-primary">Ver producto</a>
+              </div>
+          </div>
+      </div>
+
+      <!-- Tarjeta 12 -->
+      <div class="col-md-3">
+          <div class="card mb-4">
+              <img src="https://i.pinimg.com/564x/0f/e4/99/0fe499a2cadf60da1d0230663d31b89e.jpg" style="width: 100%; height: 400px; object-fit: cover;" class="card-img-top" alt="Producto 12">
+              <div class="card-body">
+                  <h5 class="card-title">Producto 12</h5>
+                  <p class="card-text">Descripción breve del producto 12.</p>
+                  <a href="#" class="btn btn-primary">Ver producto</a>
+              </div>
+          </div>
+      </div>
+
+  </div>
+</div>
+
+    </div>
+</div>
+
+  
   <!-- Pie de página -->
   <footer class="bg-light text-center py-4">
-    <p>&copy; 2024 Tienda de Ropa. Todos los derechos reservados.</p>
+    <p>&copy; 2024 Realizado por Jenifer Cuxil. Todos los derechos reservados.</p>
   </footer>
 
   <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
-
